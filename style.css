@@ -37,10 +37,9 @@ p {
     font-size: 30px;
 }
 
-
-
 img {
     height: 300px;
+    border: 6px solid #0087ca;
 }
 
 
@@ -55,6 +54,18 @@ img {
     border-radius: 10px;
     font-size: "Roboto";
     background-color: rgba(0, 135, 202, 60%);
+}
+
+
+#buttonwrapper{
+  display: flex;
+}
+
+
+input {
+  width: 80px;
+  height: 80px;
+  margin-right: 40px;
 }
 
 

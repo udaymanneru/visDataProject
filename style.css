@@ -1,0 +1,108 @@
+body{
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bigwrapper{
+    border-radius: 25px;
+    border: 4px solid #0087ca;
+    padding: 10px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#person-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+
+    
+}
+
+img {
+    border-radius: 50%;
+}
+
+p {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.information {
+    font-size: 30px;
+}
+
+
+
+img {
+    height: 300px;
+}
+
+
+#randomButton{
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: "Roboto";
+    background-color: rgba(0, 135, 202, 60%);
+}
+
+
+#randomButton:hover {
+    background-color: rgba(0, 135, 202, 100%);
+    transition: 0.8s;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: black;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 350ms ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  .name-underline{
+    background-image: linear-gradient(90deg, black, 20%, #0087ca);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease;
+  }
+
+  .name-underline:hover{
+    background-size: 100% 5px;
+  }
